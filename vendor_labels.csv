@@ -1,0 +1,401 @@
+vendor_id,is_anomaly,anomaly_type,severity,expired_certifications,explanation
+V0001,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 69/100 warrants increased monitoring.
+V0002,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Customer PII access.
+V0003,True,RECENTLY_BREACHED_VENDOR,MEDIUM,,Breached in last 12 months (limited data access).
+V0004,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0005,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired.
+V0006,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0007,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 76/100 warrants increased monitoring.
+V0008,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired.
+V0009,True,RECENTLY_BREACHED_VENDOR,MEDIUM,,Breached in last 12 months (limited data access).
+V0010,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0011,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0012,True,RECENTLY_BREACHED_VENDOR,MEDIUM,,Breached in last 12 months (limited data access).
+V0013,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired.
+V0014,False,,,,
+V0015,False,,,,
+V0016,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired.
+V0017,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired.
+V0018,False,,,,
+V0019,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0020,False,,,,
+V0021,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0022,True,HIGH_RISK_SCORE,HIGH,,Risk score 87/100 exceeds the 80 threshold.
+V0023,False,,,,
+V0024,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,SOC2;ISO27001,Vendor is currently under an active security investigation.
+V0025,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0026,True,HIGH_RISK_SCORE,HIGH,PCI-DSS,Risk score 83/100 exceeds the 80 threshold.
+V0027,True,HIGH_RISK_SCORE,HIGH,ISO27001,Risk score 92/100 exceeds the 80 threshold.
+V0028,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0029,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Financial data access.
+V0030,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,ISO27001;SOC2,Vendor is currently under an active security investigation.
+V0031,True,EXPIRED_CERTIFICATION,HIGH,SOC2,Certification(s) SOC2 expired on a vendor with Customer PII access.
+V0032,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 71/100 warrants increased monitoring.
+V0033,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired.
+V0034,False,,,,
+V0035,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0036,False,,,,
+V0037,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,ISO27001,Vendor is currently under an active security investigation.
+V0038,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired on a vendor with Customer PII access.
+V0039,False,,,,
+V0040,False,,,,
+V0041,False,,,,
+V0042,False,,,,
+V0043,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0044,False,,,,
+V0045,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0046,True,HIGH_RISK_SCORE,HIGH,,Risk score 98/100 exceeds the 80 threshold.
+V0047,True,HIGH_RISK_SCORE,HIGH,SOC2,Risk score 99/100 exceeds the 80 threshold.
+V0048,True,HIGH_RISK_SCORE,HIGH,SOC2,Risk score 86/100 exceeds the 80 threshold.
+V0049,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;ISO27001,Certification(s) PCI-DSS;ISO27001 expired.
+V0050,True,HIGH_RISK_SCORE,HIGH,ISO27001;SOC2,Risk score 81/100 exceeds the 80 threshold.
+V0051,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0052,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired.
+V0053,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0054,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Financial data access.
+V0055,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired.
+V0056,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,,Breached in last 12 months and holds Customer PII.
+V0057,False,,,,
+V0058,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0059,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 66/100 warrants increased monitoring.
+V0060,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Customer PII access.
+V0061,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 70/100 warrants increased monitoring.
+V0062,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 70/100 warrants increased monitoring.
+V0063,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 70/100 warrants increased monitoring.
+V0064,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 66/100 warrants increased monitoring.
+V0065,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0066,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,,Breached in last 12 months and holds Customer PII.
+V0067,True,HIGH_RISK_SCORE,HIGH,SOC2,Risk score 82/100 exceeds the 80 threshold.
+V0068,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0069,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0070,False,,,,
+V0071,False,,,,
+V0072,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0073,False,,,,
+V0074,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 67/100 warrants increased monitoring.
+V0075,False,,,,
+V0076,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired.
+V0077,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0078,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired on a vendor with Customer PII access.
+V0079,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Financial data access.
+V0080,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0081,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0082,True,RECENTLY_BREACHED_VENDOR,MEDIUM,,Breached in last 12 months (limited data access).
+V0083,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0084,True,HIGH_RISK_SCORE,HIGH,PCI-DSS;ISO27001,Risk score 99/100 exceeds the 80 threshold.
+V0085,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0086,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0087,False,,,,
+V0088,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;ISO27001,Certification(s) PCI-DSS;ISO27001 expired on a vendor with Customer PII access.
+V0089,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Financial data access.
+V0090,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0091,False,,,,
+V0092,False,,,,
+V0093,True,HIGH_RISK_SCORE,HIGH,PCI-DSS,Risk score 99/100 exceeds the 80 threshold.
+V0094,True,EXPIRED_CERTIFICATION,HIGH,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired on a vendor with Customer PII access.
+V0095,False,,,,
+V0096,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0097,False,,,,
+V0098,False,,,,
+V0099,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0100,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0101,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0102,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0103,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired on a vendor with Customer PII access.
+V0104,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired.
+V0105,False,,,,
+V0106,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0107,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0108,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0109,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 68/100 warrants increased monitoring.
+V0110,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired.
+V0111,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0112,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0113,False,,,,
+V0114,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0115,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired on a vendor with Customer PII access.
+V0116,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,PCI-DSS;SOC2,Vendor is currently under an active security investigation.
+V0117,False,,,,
+V0118,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired.
+V0119,True,EXPIRED_CERTIFICATION,HIGH,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired on a vendor with Financial data access.
+V0120,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0121,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;ISO27001,Certification(s) PCI-DSS;ISO27001 expired.
+V0122,True,EXPIRED_CERTIFICATION,HIGH,SOC2,Certification(s) SOC2 expired on a vendor with Customer PII access.
+V0123,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,ISO27001,Vendor is currently under an active security investigation.
+V0124,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0125,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired.
+V0126,False,,,,
+V0127,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,PCI-DSS,Vendor is currently under an active security investigation.
+V0128,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0129,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 68/100 warrants increased monitoring.
+V0130,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired on a vendor with Customer PII access.
+V0131,True,EXPIRED_CERTIFICATION,HIGH,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired on a vendor with Financial data access.
+V0132,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired.
+V0133,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,ISO27001,Vendor is currently under an active security investigation.
+V0134,False,,,,
+V0135,False,,,,
+V0136,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired on a vendor with Financial data access.
+V0137,True,RECENTLY_BREACHED_VENDOR,MEDIUM,,Breached in last 12 months (limited data access).
+V0138,False,,,,
+V0139,False,,,,
+V0140,True,EXPIRED_CERTIFICATION,HIGH,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired on a vendor with Customer PII access.
+V0141,True,EXPIRED_CERTIFICATION,HIGH,SOC2,Certification(s) SOC2 expired on a vendor with Customer PII access.
+V0142,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0143,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0144,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0145,False,,,,
+V0146,False,,,,
+V0147,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,SOC2,Breached in last 12 months and holds Customer PII.
+V0148,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0149,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Financial data access.
+V0150,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;ISO27001,Certification(s) PCI-DSS;ISO27001 expired.
+V0151,True,HIGH_RISK_SCORE,HIGH,,Risk score 97/100 exceeds the 80 threshold.
+V0152,False,,,,
+V0153,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0154,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,,Vendor is currently under an active security investigation.
+V0155,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0156,False,,,,
+V0157,True,HIGH_RISK_SCORE,HIGH,,Risk score 95/100 exceeds the 80 threshold.
+V0158,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0159,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0160,False,,,,
+V0161,True,EXPIRED_CERTIFICATION,HIGH,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired on a vendor with Customer PII access.
+V0162,True,HIGH_RISK_SCORE,HIGH,,Risk score 97/100 exceeds the 80 threshold.
+V0163,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Financial data access.
+V0164,False,,,,
+V0165,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired.
+V0166,True,EXPIRED_CERTIFICATION,HIGH,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired on a vendor with Customer PII access.
+V0167,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,PCI-DSS;SOC2,Breached in last 12 months and holds Financial data.
+V0168,False,,,,
+V0169,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,,Breached in last 12 months and holds Customer PII.
+V0170,False,,,,
+V0171,False,,,,
+V0172,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0173,True,EXPIRED_CERTIFICATION,HIGH,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired on a vendor with Financial data access.
+V0174,False,,,,
+V0175,False,,,,
+V0176,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired.
+V0177,False,,,,
+V0178,False,,,,
+V0179,True,EXPIRED_CERTIFICATION,HIGH,SOC2,Certification(s) SOC2 expired on a vendor with Customer PII access.
+V0180,False,,,,
+V0181,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,PCI-DSS,Vendor is currently under an active security investigation.
+V0182,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 66/100 warrants increased monitoring.
+V0183,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0184,True,EXPIRED_CERTIFICATION,HIGH,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired on a vendor with Customer PII access.
+V0185,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 65/100 warrants increased monitoring.
+V0186,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired.
+V0187,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired on a vendor with Financial data access.
+V0188,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired.
+V0189,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0190,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired.
+V0191,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0192,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired on a vendor with Customer PII access.
+V0193,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;ISO27001,Certification(s) PCI-DSS;ISO27001 expired.
+V0194,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired on a vendor with Customer PII access.
+V0195,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0196,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 72/100 warrants increased monitoring.
+V0197,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0198,False,,,,
+V0199,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0200,False,,,,
+V0201,False,,,,
+V0202,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,SOC2,Vendor is currently under an active security investigation.
+V0203,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired on a vendor with Customer PII access.
+V0204,False,,,,
+V0205,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Financial data access.
+V0206,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired.
+V0207,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,SOC2,Breached in last 12 months and holds Customer PII.
+V0208,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0209,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0210,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0211,False,,,,
+V0212,False,,,,
+V0213,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0214,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0215,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired.
+V0216,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0217,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0218,False,,,,
+V0219,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0220,False,,,,
+V0221,False,,,,
+V0222,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Customer PII access.
+V0223,False,,,,
+V0224,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0225,False,,,,
+V0226,True,HIGH_RISK_SCORE,HIGH,SOC2,Risk score 83/100 exceeds the 80 threshold.
+V0227,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0228,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Financial data access.
+V0229,True,EXPIRED_CERTIFICATION,HIGH,SOC2,Certification(s) SOC2 expired on a vendor with Customer PII access.
+V0230,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,PCI-DSS,Breached in last 12 months and holds Financial data.
+V0231,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0232,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0233,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0234,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0235,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0236,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired.
+V0237,True,HIGH_RISK_SCORE,HIGH,,Risk score 99/100 exceeds the 80 threshold.
+V0238,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired on a vendor with Financial data access.
+V0239,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0240,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0241,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0242,True,EXPIRED_CERTIFICATION,HIGH,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired on a vendor with Customer PII access.
+V0243,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0244,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired on a vendor with Customer PII access.
+V0245,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0246,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0247,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired.
+V0248,False,,,,
+V0249,False,,,,
+V0250,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0251,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0252,False,,,,
+V0253,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired on a vendor with Customer PII access.
+V0254,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired.
+V0255,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 80/100 warrants increased monitoring.
+V0256,False,,,,
+V0257,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0258,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,SOC2,Breached in last 12 months and holds Customer PII.
+V0259,False,,,,
+V0260,False,,,,
+V0261,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 65/100 warrants increased monitoring.
+V0262,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,SOC2,Breached in last 12 months and holds Financial data.
+V0263,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Customer PII access.
+V0264,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 77/100 warrants increased monitoring.
+V0265,False,,,,
+V0266,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0267,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0268,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0269,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0270,True,RECENTLY_BREACHED_VENDOR,MEDIUM,,Breached in last 12 months (limited data access).
+V0271,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0272,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0273,True,HIGH_RISK_SCORE,HIGH,SOC2,Risk score 99/100 exceeds the 80 threshold.
+V0274,False,,,,
+V0275,False,,,,
+V0276,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0277,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0278,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0279,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0280,True,HIGH_RISK_SCORE,HIGH,SOC2,Risk score 82/100 exceeds the 80 threshold.
+V0281,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0282,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0283,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 80/100 warrants increased monitoring.
+V0284,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0285,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired.
+V0286,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired.
+V0287,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,ISO27001;PCI-DSS,Breached in last 12 months and holds Customer PII.
+V0288,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0289,False,,,,
+V0290,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0291,False,,,,
+V0292,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired on a vendor with Customer PII access.
+V0293,False,,,,
+V0294,False,,,,
+V0295,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0296,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 70/100 warrants increased monitoring.
+V0297,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0298,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Financial data access.
+V0299,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 72/100 warrants increased monitoring.
+V0300,False,,,,
+V0301,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Financial data access.
+V0302,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,SOC2,Breached in last 12 months and holds Customer PII.
+V0303,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired on a vendor with Customer PII access.
+V0304,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Financial data access.
+V0305,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0306,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;ISO27001,Certification(s) PCI-DSS;ISO27001 expired on a vendor with Financial data access.
+V0307,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0308,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 70/100 warrants increased monitoring.
+V0309,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;ISO27001,Certification(s) PCI-DSS;ISO27001 expired on a vendor with Financial data access.
+V0310,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired on a vendor with Customer PII access.
+V0311,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,ISO27001;PCI-DSS,Breached in last 12 months and holds Customer PII.
+V0312,False,,,,
+V0313,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0314,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001,Certification(s) ISO27001 expired.
+V0315,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0316,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,SOC2,Vendor is currently under an active security investigation.
+V0317,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0318,False,,,,
+V0319,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0320,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired.
+V0321,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0322,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 68/100 warrants increased monitoring.
+V0323,False,,,,
+V0324,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0325,True,EXPIRED_CERTIFICATION,HIGH,SOC2,Certification(s) SOC2 expired on a vendor with Financial data access.
+V0326,False,,,,
+V0327,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired on a vendor with Financial data access.
+V0328,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired.
+V0329,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0330,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0331,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,,Breached in last 12 months and holds Financial data.
+V0332,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired.
+V0333,False,,,,
+V0334,True,VENDOR_UNDER_INVESTIGATION,CRITICAL,SOC2,Vendor is currently under an active security investigation.
+V0335,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 74/100 warrants increased monitoring.
+V0336,False,,,,
+V0337,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,SOC2,Breached in last 12 months and holds Customer PII.
+V0338,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0339,False,,,,
+V0340,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Customer PII access.
+V0341,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Customer PII access.
+V0342,False,,,,
+V0343,True,EXPIRED_CERTIFICATION,HIGH,SOC2,Certification(s) SOC2 expired on a vendor with Financial data access.
+V0344,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0345,True,HIGH_RISK_SCORE,HIGH,PCI-DSS;SOC2,Risk score 89/100 exceeds the 80 threshold.
+V0346,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0347,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0348,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0349,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Financial data access.
+V0350,True,HIGH_RISK_SCORE,HIGH,PCI-DSS,Risk score 94/100 exceeds the 80 threshold.
+V0351,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0352,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;SOC2,Certification(s) ISO27001;SOC2 expired on a vendor with Customer PII access.
+V0353,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,ISO27001;PCI-DSS,Breached in last 12 months and holds Customer PII.
+V0354,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired.
+V0355,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0356,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Financial data access.
+V0357,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 79/100 warrants increased monitoring.
+V0358,True,EXPIRED_CERTIFICATION,HIGH,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired on a vendor with Customer PII access.
+V0359,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Customer PII access.
+V0360,False,,,,
+V0361,False,,,,
+V0362,True,EXPIRED_CERTIFICATION,HIGH,SOC2;PCI-DSS,Certification(s) SOC2;PCI-DSS expired on a vendor with Customer PII access.
+V0363,True,HIGH_RISK_SCORE,HIGH,ISO27001,Risk score 95/100 exceeds the 80 threshold.
+V0364,True,HIGH_RISK_SCORE,HIGH,PCI-DSS,Risk score 89/100 exceeds the 80 threshold.
+V0365,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired on a vendor with Customer PII access.
+V0366,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Financial data access.
+V0367,False,,,,
+V0368,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;ISO27001,Certification(s) PCI-DSS;ISO27001 expired.
+V0369,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Financial data access.
+V0370,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0371,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Financial data access.
+V0372,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 66/100 warrants increased monitoring.
+V0373,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Customer PII access.
+V0374,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Customer PII access.
+V0375,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,ISO27001,Breached in last 12 months and holds Financial data.
+V0376,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0377,True,EXPIRED_CERTIFICATION,HIGH,SOC2;ISO27001,Certification(s) SOC2;ISO27001 expired on a vendor with Customer PII access.
+V0378,True,HIGH_RISK_SCORE,HIGH,,Risk score 89/100 exceeds the 80 threshold.
+V0379,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0380,False,,,,
+V0381,True,HIGH_RISK_SCORE,HIGH,SOC2;ISO27001,Risk score 99/100 exceeds the 80 threshold.
+V0382,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,,Breached in last 12 months and holds Customer PII.
+V0383,True,EXPIRED_CERTIFICATION,MEDIUM,ISO27001;PCI-DSS,Certification(s) ISO27001;PCI-DSS expired.
+V0384,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0385,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 68/100 warrants increased monitoring.
+V0386,True,EXPIRED_CERTIFICATION,MEDIUM,SOC2,Certification(s) SOC2 expired.
+V0387,True,HIGH_RISK_SCORE,HIGH,,Risk score 86/100 exceeds the 80 threshold.
+V0388,True,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,,Contract has ended but access may still be active (orphaned access).
+V0389,True,ELEVATED_RISK_VENDOR,LOW,,Risk score 72/100 warrants increased monitoring.
+V0390,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS,Certification(s) PCI-DSS expired.
+V0391,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,ISO27001,Breached in last 12 months and holds Customer PII.
+V0392,True,EXPIRED_CERTIFICATION,HIGH,ISO27001,Certification(s) ISO27001 expired on a vendor with Customer PII access.
+V0393,True,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,SOC2,Breached in last 12 months and holds Customer PII.
+V0394,False,,,,
+V0395,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;SOC2,Certification(s) PCI-DSS;SOC2 expired.
+V0396,True,HIGH_RISK_SCORE,HIGH,,Risk score 87/100 exceeds the 80 threshold.
+V0397,False,,,,
+V0398,True,RECENTLY_BREACHED_VENDOR,MEDIUM,,Breached in last 12 months (limited data access).
+V0399,True,EXPIRED_CERTIFICATION,HIGH,PCI-DSS,Certification(s) PCI-DSS expired on a vendor with Financial data access.
+V0400,True,EXPIRED_CERTIFICATION,MEDIUM,PCI-DSS;ISO27001,Certification(s) PCI-DSS;ISO27001 expired.
